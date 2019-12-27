@@ -1,23 +1,20 @@
 ---
 layout: page
-title: "About Link Rot"
+title: "About Infusing Computing"
 permalink: /about
 ---
 
-Link Rot is an idea that emerged over a couple of cups of coffee. We realised that we're all hugely interested in technology, but also the impact that it's having on our lives. This has led to plenty of interesting discussions so we figured - why not record them, post them online and see what happens. There's something about a discussion that brings people together - to jointly explore a topic, gain a different perspectives, and there's something more personal about doing it through speech. So welcome to the podcast!
+Infusing Computing is an NSF-funded research program delivering computing-infused, STEM-focused professional development to middle and high school teachers in order to improve computing learning across North Carolina and South Carolina. 
 
-### The Name
+The purpose of this podcast is to help disseminate materials from the project more accessible and approachable for all. We figued that no one would pay attention to webinars. We also believe that webinars are generally only of interest to project participants...but we wanted to make all of these materials available for anyone that would be interested. So...we rolled up our sleeves and reimagined our dissemination as an open podcast. So welcome to the podcast!
 
-As Wikipedia puts it:
+### Our Goal
 
->**Link Rot** (or linkrot) refers to the process by which hyperlinks on individual websites or the Internet in general point to web pages, servers or other resources that have become permanently unavailable.
+The goal of Infusing Computing is to provide interdisciplinary, computing-infused professional development for 360 middle and high school teachers in North Carolina and South Carolina. Participants will learn how to incorporate computing into the content area in ways that support and enhance their state and district curriculum.
 
-We figured that process of Link Rot is actually present in the physical world too - that as culture, technology and people change, so to do their resources, directions, groundings and beliefs. We wanted to explore that space and that aspect of technology - how it actually influences and changes our lives. This isn't a discussion about processors or specifications - it's about how those things conspire to change our lives.
+Our primary research question is: How do PD contexts (individual or team, school type) and cultures (discipline, state) impact the quality, implementation, and equitable access to STEM curricula integrated with computing?
 
 ### The People
 
-At the momemt the Link Rot team consists of [Tim Klapdor](https://twitter.com/timklapdor), [Adam Webster](https://twitter.com/adzawebster) and [Ben Atkinson](https://twitter.com/rockickarse). We work in different roles in education and technology and are based in [Wagga Wagga, Australia](https://en.wikipedia.org/wiki/Wagga_Wagga) (the place so nice they named it twice). We're hoping to expand the voice you hear in the near future - getting guests in to discuss some of the big issues behind the technology. 
+Our project is led by a collective is led by a collaborative research team from NC State and The Citadel. You can learn more about us at [our website](https://www.infusingcomputing.com/program-overview.html). 
 
-### How we do it
-
-If you're curious about how this site and the podcast works you can [find out more here on this page]({{ "/podcast.html" | prepend: site.baseurl }}).
