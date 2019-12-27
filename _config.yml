@@ -14,7 +14,7 @@ lang: en-us
 author: Ian O'Byrne
 copyright: "CC-BY 4.0"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://linkrot.net" # the base hostname & protocol for your site
+url: "https://www.infusingcomputing.com/" # the base hostname & protocol for your site
 twitter_username: wiobyrne
 github_username:  wiobyrne
 
