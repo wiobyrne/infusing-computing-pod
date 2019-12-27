@@ -31,3 +31,5 @@ markdown: kramdown
 
 #Exclude local build settings
 exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
+
+theme: jekyll-theme-minimal
