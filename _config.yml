@@ -14,7 +14,7 @@ lang: en-us
 author: Ian O'Byrne
 copyright: "CC-BY 4.0"
 baseurl: "/infusing-computing-pod" # the subpath of your site, e.g. /blog
-url: "https://www.infusingcomputing.com/" # the base hostname & protocol for your site
+url: "https://wiobyrne.github.io/" # the base hostname & protocol for your site
 twitter_username: wiobyrne
 github_username:  wiobyrne
 
