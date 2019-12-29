@@ -10,9 +10,15 @@ The purpose of this podcast is to help disseminate materials from the project mo
 
 ### Our Goal
 
-The goal of Infusing Computing is to provide interdisciplinary, computing-infused professional development for 360 middle and high school teachers in North Carolina and South Carolina. Participants will learn how to incorporate computing into the content area in ways that support and enhance their state and district curriculum.
+The goal of Infusing Computing is to provide interdisciplinary, computing-infused professional development for 360 middle and high school teachers in North Carolina and South Carolina. Participants learn how to incorporate computing into the content area in ways that support and enhance their state and district curriculum.
 
-Our primary research question is: How do PD contexts (individual or team, school type) and cultures (discipline, state) impact the quality, implementation, and equitable access to STEM curricula integrated with computing?
+Our primary research question is: How do professional development contexts (individual or team, school type) and cultures (discipline, state) impact the quality, implementation, and equitable access to STEM curricula integrated with computing?
+
+The end result is a podcast series that focuses on four segments:
+- Infusing Computational Thinking: What is computational thinking (CT) and the PRADA model?
+- Focus on the Content Area: What does CT look like as embedded in the disciplines?
+- Report from the Field: Short discussions with teachers from the project as they embed CT and PRADA in their classrooms.
+- Water Cooler: News, notes, tips, and tricks about the project.
 
 ### The People
 
