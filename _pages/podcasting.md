@@ -4,27 +4,39 @@ title: "Podcasting With Jekyll"
 permalink: /podcast
 ---
 
-This site is built using the static site generator [Jekyll](https://jekyllrb.com/), the audio files live on [Amazon S3](https://aws.amazon.com/s3/) and (for the time being) the site itself is hosted on [GitHub pages](https://pages.github.com/).
+This site is built using the static site generator [Jekyll](https://jekyllrb.com/), the audio files live on the [Internet Archive](https://archive.org/details/infusingcomputing/) and the site itself is hosted on [GitHub pages](https://pages.github.com/).
 
-### Why?
+### What is this?
 
-The simple answer is that podcasting relies on a pretty simple technology - RSS. RSS often gets generated for a website almost as a by-product of adding content, this allows people to "subscribe" to your website and be notified or fed updates. Jekyll generates RSS straight out of the box and every podcast needs a website so we thought - why not kill two birds with one stone?
+This webseries is meant to provide an altervative to webinars to disseminate information from the [Infusing Computing research project](https://www.infusingcomputing.com/). We wanted a platform that was a bit more open, accessible, and approachable with people in and out of the project. We figured that webinars would only be reviewed by project participants..and have the potential to be ignored. A podcast series provides bite-sized (around 10 minute) segments that can be consumed by individuals during the everyday events of their lives.
 
-### How?
+Podcasting relies on a pretty simple technology - RSS. RSS often gets generated for a website almost as a by-product of adding content, this allows people to "subscribe" to your website and be notified or fed updates. Jekyll generates RSS straight out of the box and every podcast needs a website so we thought - why not kill two birds with one stone?
 
-After a bit of a search we stumbled across [Podcast Generator](http://www.podcastgenerator.net/) which seemed to be a useful tool and close to what we needed. Doug and Dai over at [TIDE podcast](http://tidepodcast.org/) use it and after having played with the setup - it's quick and easy. There was some concern about placing our audio files up on our webserver though, audio files can be quite large which can impact on traffic allowances. Tim asked around the [Reclaim Community](https://community.reclaimhosting.com/t/podcasting-with-reclaim/) and decided to have a go at Jekyll. After an evening of fiddling around the site was up and running. It was generating an RSS feed that complied with iTunes standards and was looking pretty nice too. Tim added a HTML5 player ([Plyr](https://github.com/Selz/plyr)) to the post page for each podcast so that people could sample and listen without having to subscribe or download anything. Next step was to move the files into an Amazon S3 bucket, which [this tutorial](https://growthedream.com/host-podcast-files-amazon-s3/) covers nicely. The final step was getting a domain name and pointing it at GitHub.
+### How do you do this?
+
+After a bit of research, we realized that the platform we use to host the website (Weebly) is horrible for creating a podcast feed. WordPress would provide a much better option. This is partially due to a decision to host the [audio files for the podcast](https://archive.org/details/infusingcomputing/) on the Internet Archive. This allows the files to be hosted for free. This also allows us to Creative Commons license the audio files and make them available for others to review, remix, reuse. Lastly, it is important that the materials, tools, and process are all transparent to show others how this may be accomplished. 
+
+After realizing that Weebly would not work, and starting up a new WordPress instance would not be an option, we researched the [Podcast Generator](http://www.podcastgenerator.net/) which worked for [Doug Belshaw]{https://dougbelshaw.com/) and [Dai Barnes](http://daibarnes.info/) on the [TIDE podcast](http://tidepodcast.org/). After some epxloration, we could not get this running and looked for other opportunities to serve the podcast website, while not being solely "owned" by one person. 
+
+After more research and exploration, we identified the potential to use [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/) to create individual posts for each episode and power the RSS feed for subscriptions. This inspiration is all due to [Tim Klapdor](https://timklapdor.com/). This site was inspired by Tim's use of the [Jekyll Skeleton](https://github.com/timklapdor/jekyll-skeleton) to create the [LinkRot Podcast](https://github.com/timklapdor/link-rot). We also liked the embedded HTML5 player ([Plyr](https://github.com/Selz/plyr)) in the post page for each podcast to allow people to sample and listen without having to subscribe or download anything. This was an element used in the LinkRot Podcast.
+
+Jekyll is a static site generator that can be used to create simple blogs from plain text files. [GitHub](https://github.com/) is a cloud [Git](https://git-scm.com/) repository hosting service that provides a handy web interface for managing, editing, and collaborating on Git repositories. By using Jekyll to create pages and share via GitHub, GitHub Pages allows us to share a website using free static web hosting from a GitHub repository. To learn about Jekyll, GitHub, and GitHub pages, [this workshop](https://evanwill.github.io/go-go-ghpages/) from [Evan Will](https://evanwill.github.io/) was an invaluable resource. Screencast of the workshop is available [here](https://www.youtube.com/watch?v=SWVjQsvQocA&feature=youtu.be).
+
+We used the repositories from the Jekyll Skeleton and LinkRot Podcast to create this website.  
+
+This project will most likely include a constant amount of fiddling and tweaks to keep it running, while making it look better online. Once again, one of the key goals is to show what can be done to create this alternative publishing and dissemination model in professional development experiences. 
 
 ### Our Process
 
-**1.** Record the conversation
+**1.** Record the conversation using Zoom
 
-**2.** Edit and export podcast
+**2.** Edit and export audio from Zoom. Edit audio in [Audacity](https://www.audacityteam.org/) or [Soundtrap](https://www.soundtrap.com/)
 
 **3.** Edit metadata
 
-**4.** FTP file to Amazon S3 - copy link
+**4.** Upload file to the Internet Archive file - copy link to MP3
 
-**5.** Create a new post in Markdown and add in the relevant front matter to the YAML section
+**5.** Create a new post in Markdown and add in the relevant front matter to the YAML section. The following guidance is from the LinkRot podcast
 
 ``` yaml
 layout: post
@@ -46,11 +58,3 @@ voices: "who did the talking"
 **7.** Once we're complete Commit to GitHub
 
 **8.** Site and RSS is updated and the new episode is pushed out
-
-### Can I haz?
-
-The beauty of this set up is that it's simple - and you can access [all the source files over on GitHub](https://github.com/timklapdor/link-rot). The RSS file pulls information from the config.yml file which has most of the information you need to publish on iTunes. The episode information and file for Plyr are included the Post layout and pulled in from the front matter listed above. All styles can be configured using some basic CSS. 
-
-At the moment you'll need to fork our code to make your own copy - but we'll make a boilerplate available soon. If this sounds cool and you want to get in touch with us you can via <a href="mailto:linkrot.podcast@gmail.com?subject=I found your website and wanted to say hi!">email</a> or on <a href="http://twitter.com/linkrotpodcast">twitter</a>!
-
-Cheers!
