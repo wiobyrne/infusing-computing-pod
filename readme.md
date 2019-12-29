@@ -1,5 +1,9 @@
 ## This is the site for the **Infusing Computing Webseries**!
 
-The site has been built using Jekyll. Individual posts for each episode power the RSS for Subscriptions via iTunes. 
+The site has been built using Jekyll and GutHub Pages to create individual posts for each episode and power the RSS feed for subscriptions. 
 
-Episodes can also be stream using the [Plyr](https://github.com/Selz/plyr) HTML/JS media player. All thanks for the site design was created using [Jekyll Skeleton](https://github.com/timklapdor/jekyll-skeleton) by Tim Klapdor. 
+Episodes can also be stream using the [Plyr](https://github.com/Selz/plyr) HTML/JS media player.
+
+All thanks for the site design, and guidance in the development for this site is given to [Tim Klapdor](https://timklapdor.com/). This site was inspired by Tim's use of the [Jekyll Skeleton](https://github.com/timklapdor/jekyll-skeleton) to create the [LinkRot Podcast](https://github.com/timklapdor/link-rot).
+
+To learn more about how this site was created, review the [podcasting page](https://wiobyrne.github.io/infusing-computing-pod/podcast.html).  
