@@ -13,7 +13,7 @@ subtitle: "A discussion from the intersection of computational thinking & the co
 lang: en-us
 author: Ian O'Byrne
 copyright: "CC-BY 4.0"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/infusing-computing-pod" # the subpath of your site, e.g. /blog
 url: "https://www.infusingcomputing.com/" # the base hostname & protocol for your site
 twitter_username: wiobyrne
 github_username:  wiobyrne
