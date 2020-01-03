@@ -8,7 +8,7 @@ This site is built using the static site generator [Jekyll](https://jekyllrb.com
 
 ### What is this?
 
-This webseries is meant to provide an altervative to webinars to disseminate information from the [Infusing Computing research project](https://www.infusingcomputing.com/). We wanted a platform that was a bit more open, accessible, and approachable with people in and out of the project. We figured that webinars would only be reviewed by project participants..and have the potential to be ignored. A podcast series provides bite-sized (around 10 minute) segments that can be consumed by individuals during the everyday events of their lives.
+This webseries is meant to provide an alternative to webinars to disseminate information from the [Infusing Computing research project](https://www.infusingcomputing.com/). We wanted a platform that was a bit more open, accessible, and approachable with people in and out of the project. We figured that webinars would only be reviewed by project participants..and have the potential to be ignored. A podcast series provides bite-sized (around 10 minute) segments that can be consumed by individuals during the everyday events of their lives.
 
 Podcasting relies on a pretty simple technology - RSS. RSS often gets generated for a website almost as a by-product of adding content, this allows people to "subscribe" to your website and be notified or fed updates. Jekyll generates RSS straight out of the box and every podcast needs a website so we thought - why not kill two birds with one stone?
 
