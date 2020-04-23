@@ -1,6 +1,6 @@
 ## This is the site for the **Infusing Computing Webseries**!
 
-The site has been built using Jekyll and GitHub Pages to create individual posts for each episode and power the RSS feed for subscriptions. 
+[The site](https://wiobyrne.github.io/infusing-computing-pod/index.html) has been built using Jekyll and GitHub Pages to create individual posts for each episode and power the RSS feed for subscriptions. 
 
 Episodes can be streamed using the [Plyr](https://github.com/Selz/plyr) HTML/JS media player.
 
